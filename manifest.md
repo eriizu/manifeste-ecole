@@ -72,6 +72,7 @@ title: Manifeste de la Caverne aux Lapins Noirs
     -   [<span id="anchor-33"></span>Marathon](#marathon)
     -   [<span id="anchor-34"></span>Réunion
         journalière](#réunion-journalière)
+    -   [Réunion de planification](#réunion-de-planification)
     -   [<span id="anchor-35"></span>Réunion de
         démonstration](#réunion-de-démonstration)
     -   [<span id="anchor-36"></span>Réunion
@@ -83,6 +84,7 @@ title: Manifeste de la Caverne aux Lapins Noirs
     -   [<span id="anchor-41"></span>Produit](#produit)
 -   [<span id="anchor-42"></span>XI — Intranet](#xi-intranet)
     -   [<span id="anchor-43"></span>Profil](#profil)
+    -   [Graphe scolaire](#graphe-scolaire)
     -   [<span id="anchor-44"></span>L’Agenda
         scolaire](#lagenda-scolaire)
     -   [<span id="anchor-45"></span>Support
@@ -1045,9 +1047,9 @@ large ensemble amènent à la pratique de la programmation, mettent en
 place différentes règles et conditions changeant la façon dont celle-ci
 s’exerce.
 
-Les activités dites d’évaluation implique qu’il n’y ait pas de
-communication entre élèves ou entre équipes. En cas d’exception
-particulière, cela est notifié.
+Une activité dite d’évaluation implique qu’il n’y a pas de communication
+entre élèves ou entre équipes. En cas d’exception particulière, cela est
+notifié.
 
 Ces formats doivent être susceptibles d’être modifiés en fonction des
 retours des élèves, de même que leur contenu.
@@ -1070,8 +1072,9 @@ l’explication des notions, contextualisé selon le problème de l’élève
 mais ne devront pas indiquer à l’élève quelles erreurs il aurait pu
 faire. Cela, à moins que celui-ci ne soit bloqué depuis un certain
 temps, et dans ce cas alors, il faudra que le professeur se restreigne à
-mettre sur la voie de cette erreur l’élève. L’idée fixe étant non pas de
-dire, mais de faire comprendre par lui-même l’élève.
+mettre sur la voie de cette erreur l’élève. L’idée étant non pas de dire
+à l’élève comme faire, mais de faire en sorte qu’il comprenne par
+lui-même.
 
 ## <span id="anchor-27"></span>Travaux pratiques
 
@@ -1200,7 +1203,7 @@ minimale de chacun et d’éventuellement faire découvrir aux autres les
 problèmes que l’on croise, afin potentiellement d’ensuite établir une
 réponse collective pour débloquer une situation inconfortable.
 
-Réunion de planification
+## Réunion de planification
 
 La réunion de planification peut être encadrée ou non par un professeur.
 La réunion de planification a lieu en début d’activité. Si cette
@@ -1340,7 +1343,7 @@ décide de les montrer.
 
 Les annotations des professeurs sont strictement personnelles.
 
-Graphe scolaire
+## Graphe scolaire
 
 L’élève peut naviguer dans le programme scolaire via cet intranet.
 L’élément principal qu’il peut observer est son graphe scolaire.
