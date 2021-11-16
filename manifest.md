@@ -203,8 +203,8 @@ title: Manifeste de la Caverne aux Lapins Noirs
 | Corrections       | Élise C. Philippe                                                     |
 | Date              | 29 avril 2018                                                         |
 | # de manuscrit    | 2                                                                     |
-| Dernière révision | 24 mai 2021                                                           |
-| # de révision     | 18                                                                    |
+| Dernière révision | 16 novembre 2021                                                      |
+| # de révision     | 19                                                                    |
 
 # Résumé
 

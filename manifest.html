@@ -21,7 +21,7 @@
       padding-top: 50px;
       padding-bottom: 50px;
       hyphens: auto;
-      word-wrap: break-word;
+      overflow-wrap: break-word;
       text-rendering: optimizeLegibility;
       font-kerning: normal;
     }
@@ -92,6 +92,7 @@
     pre code {
       padding: 0;
       overflow: visible;
+      overflow-wrap: normal;
     }
     .sourceCode {
      background-color: transparent;
@@ -197,6 +198,8 @@
 <li><a href="#évaluations"><span id="anchor-21"></span>Évaluations</a></li>
 <li><a href="#publicité-des-médailles"><span id="anchor-22"></span>Publicité des médailles</a></li>
 <li><a href="#médaille-déquipe"><span id="anchor-23"></span>Médaille d’équipe</a></li>
+<li><a href="#médailles-autres">Médailles autres</a></li>
+<li><a href="#validation-des-élèves">Validation des élèves</a></li>
 <li><a href="#suivi-des-élèves-en-difficulté">Suivi des élèves en difficulté</a></li>
 <li><a href="#reproches"><span id="anchor-24"></span>Reproches</a></li>
 </ul></li>
@@ -244,6 +247,7 @@
 <li><a href="#jenkinsgitlabetc."><span id="anchor-56"></span>Jenkins/Gitlab/Etc.</a></li>
 <li><a href="#reviewboardgitlabetc."><span id="anchor-57"></span>ReviewBoard/Gitlab/etc.</a></li>
 <li><a href="#git"><span id="anchor-58"></span>Git</a></li>
+<li><a href="#linux-apache-mariadb-php">Linux-Apache-MariaDB-PHP</a></li>
 </ul></li>
 <li><a href="#xiv-locaux"><span id="anchor-59"></span>XIV — Locaux</a>
 <ul>
@@ -256,6 +260,7 @@
 </ul></li>
 <li><a href="#xv-laboratoires"><span id="anchor-66"></span>XV — Laboratoires</a>
 <ul>
+<li><a href="#laboratoires-pédagogiques">Laboratoires pédagogiques</a></li>
 <li><a href="#laboratoires-de-recherche"><span id="anchor-67"></span>Laboratoires de recherche</a></li>
 <li><a href="#clubs-récréatifs"><span id="anchor-68"></span>Clubs récréatifs</a></li>
 <li><a href="#indépendance-des-laboratoires"><span id="anchor-69"></span>Indépendance des laboratoires</a></li>
@@ -340,11 +345,11 @@
 </tr>
 <tr class="odd">
 <td>Dernière révision</td>
-<td>24 mai 2021</td>
+<td>16 novembre 2021</td>
 </tr>
 <tr class="even">
 <td># de révision</td>
-<td>18</td>
+<td>19</td>
 </tr>
 </tbody>
 </table>
@@ -381,8 +386,8 @@
 <p>Nous vivons dans un monde de technologie et les élèves vont y contribuer.</p>
 <p>Ce monde n’est pas naturel : il n’est pas exactement le produit de lois physique universelles répondant à la pure logique mathématique. Il a été bâti par l’homme et s’il est majoritairement logique, il est autant construit sur ses choix que sur ses erreurs.</p>
 <p>Les élèves seront confrontés à l’utilisation de technologies dont la construction ne sera souvent pas naturelle et ils devront pour s’en servir malgré tout recourir à leur documentation.</p>
-<p>Via la recherche dans les manuels existants, dans l’expérience des autres, dans les livres, sur leurs ordinateurs directement comme sur Internet, ils devront apprendre les principes de fonctionnement de ce qu’ils veulent utiliser. Cela nécessite une certaine patience et donc l’acceptation de cet acte comme d’un besoin.</p>
-<p>Lire une documentation pour comprendre une technologie, quand on est soi-même auteur de technologies, n’est pas tout : si la documentation est indispensable quand on veut utiliser, écrire celle-ci est tout autant indispensable à partir du moment où l’on souhaite que celle que l’on produit le soit également.</p>
+<p> Via la recherche dans les manuels existants, dans l’expérience des autres, dans les livres, sur leurs ordinateurs directement comme sur Internet, ils devront apprendre les principes de fonctionnement de ce qu’ils veulent utiliser. Cela nécessite une certaine patience et donc l’acceptation de cet acte comme d’un besoin.</p>
+<p> Lire une documentation pour comprendre une technologie, quand on est soi-même auteur de technologies, n’est pas tout : si la documentation est indispensable quand on veut utiliser, écrire celle-ci est tout autant indispensable à partir du moment où l’on souhaite que celle que l’on produit le soit également.</p>
 <p>De plus, même sans cette volonté, écrire une documentation est utile a soi-même : à défaut de pouvoir conserver à l’esprit l’ensemble des subtilités de tout ce que l’on est amené à produire dans son travail, l’écrire permet de relire et de s’y retrouver.</p>
 <h2 id="enseigner-la-méthode-de-travail"><span id="anchor-5"></span>Enseigner la méthode de travail</h2>
 <p>Il est assez fréquent d’imaginer un développement comme étant le fruit d’une unique personne : Le ou la génie a largement occupé l’espace pop du 20ᵉ siècle.</p>
@@ -448,7 +453,7 @@
 <p>L’école couvre également un objectif politique.</p>
 <p>Nous entendons lutter pour l’équité, pour la destruction à l’école des injustices sociales et pour la collaboration entre les gens.</p>
 <p>Nous entendons lutter pour l’égalité entre les genres dans l’informatique, nous nous positionnons ainsi en faveur d’une école d’informatique où les femmes ont la place qui leur revient.</p>
-<p>Nous entendons lutter contre toute discrimination qu’elle soit basée sur l’ethnie, les pratiques sexuelles ou le genre.</p>
+<p>Nous entendons lutter contre toutes les discriminations qu’elles soient racistes, sexistes, homophobes ou transphobes.</p>
 <p>Nous avons la prétention d’être l’une des origines du Progrès, progrès social, scientifique, philosophique, politique et technique, à l’humble échelle qui est la nôtre.</p>
 <p>Pour finir, cette école a pour vocation de servir notre pays, la France. Cela, par l’aide que nous fournirons en formant des personnes, en les menant le plus loin possible, tant comme professionnel, salariés ou employeur, que comme citoyen, et nous le disons humblement, également comme scientifique.</p>
 <h1 id="vii-scolarité">VII — Scolarité</h1>
@@ -470,11 +475,11 @@
 <p>À chaque instant, le corps enseignant est, à moins d’être chargé de création de contenu pédagogique, entièrement disponible pour répondre aux questions des élèves.</p>
 <h1 id="viii-déroulement-dune-année-scolaire"><span id="anchor-16"></span>VIII — Déroulement d’une année scolaire</h1>
 <p>Le cycle scolaire s’étend sur trois mois. Il y a donc quatre cycles scolaires par an. Au niveau de l’organisation de l’école et des rythmes, ces cycles sont majoritairement identiques : seuls les contenus abordés changent. Quelques cycles particuliers lors de projets longs peuvent être insérés. Ceux-là ne sont pas abordés et ne concernent que les élèves ayant déjà quelques années.</p>
-<p>Une « année scolaire » peut donc commencer au début de n’importe quel cycle : de nouveaux élèves peuvent joindre l’école ou la quitter à chacun d’entre eux.</p>
+<p> Une « année scolaire » peut donc commencer au début de n’importe quel cycle : de nouveaux élèves peuvent joindre l’école ou la quitter à chacun d’entre eux.</p>
 <p>De ce fait, cette section décrira le déroulement d’un cycle scolaire complet, soit 13 semaines.</p>
 <p>Nous distinguerons deux type de présence concernant les élèves :</p>
-<p>– La présence au bureau signifie qu’ils sont face à leur ordinateur en salle machine et que l’ensemble est encadré par des professeurs.</p>
-<p>– La présence libre signifie qu’ils sont dans les locaux et libre de leur déplacement : ils organisent leur travail comme ils l’entendent.</p>
+<p> – La présence au bureau signifie qu’ils sont face à leur ordinateur en salle machine et que l’ensemble est encadré par des professeurs.</p>
+<p> – La présence libre signifie qu’ils sont dans les locaux et libre de leur déplacement : ils organisent leur travail comme ils l’entendent.</p>
 <h2 id="la-période-dapprentissage"><span id="anchor-17"></span>La période d’apprentissage</h2>
 <p>La période d’apprentissage dure deux semaines. Durant cette période, la présence des élèves au bureau est requise tous jours de 9 h à 18 h.</p>
 <p>Le travail à effectuer est un travail fondamental basé exclusivement sur des exercices et a comme objectif d’apporter de nouvelles connaissances aux élèves. On y apprend de nouveaux langages de programmation, de nouvelles technologies ou de nouveaux concepts, entre autres.</p>
@@ -510,7 +515,7 @@
 <p>Le problème des notes est l’imprécision : un examen de mathématique de fin d’année au collège par exemple résumera le niveau d’un élève. Hors ce résumé ne nous intéresse pas : nous ne souhaitons ni catégoriser l’élève ni le mettre globalement en comparaison avec un autre. Notre souhait est unique : savoir ce que l’élève sait faire, et par extension, ce qu’il ne sait pas encore faire.</p>
 <p>De ce fait, dans cette école, nous ne mettons pas de notes. Nous indiquons la vérification ou non de capacités précises et prédéterminés (avec néanmoins un large espace hors statistique pour les notes personnelles, cela afin de notifier ce qui ne ferait pas partie des éléments prédéterminés) comme acte d’évaluation.</p>
 <p>Correction</p>
-<p>Une large partie des travaux est corrigé automatiquement par un logiciel accessible depuis l’intranet. Ce robot de correction présente plusieurs avantages :</p>
+<p> Une large partie des travaux est corrigé automatiquement par un logiciel accessible depuis l’intranet. Ce robot de correction présente plusieurs avantages :</p>
 <p>– il permet de corriger énormément d’élèves rapidement ;</p>
 <p>– il permet aux élèves d’être corrigés plusieurs fois, quand ils le souhaitent ;</p>
 <p>– il ne fait aucune distinction entre élèves.</p>
@@ -534,7 +539,7 @@
 <p>Les médailles d’équipe sont obtenues lors du travail en équipe. Ces médailles traitent d’une collaboration réussie mais également de la progression collective et de la progression d’un seul.</p>
 <p>Si par exemple, en travaillant dans une équipe, un élève en difficulté voit ses évaluations suivantes lui rapporter des médailles, alors l’équipe gagnera une médaille après coup. Celle de l’entraide.</p>
 <p>Elles ne peuvent être obtenues que sur les projets en équipe.</p>
-<p>Médailles autres</p>
+<h2 id="médailles-autres">Médailles autres</h2>
 <p>Les médailles autres peuvent être données manuellement par l’équipe des professeurs.</p>
 <p>Certaines médailles peuvent également être associées à des éléments autres que les compétences ou le travail en équipe tel que :</p>
 <p>– l’acquisition de nombreuse médaille en un temps très court après une période de stagnation (médaille de progression) ;</p>
@@ -542,7 +547,7 @@
 <p>– la participation a des activités extra scolaire ;</p>
 <p>– l’aide fournit aux autres en salle machine ;</p>
 <p>– etc.</p>
-<p>Validation des élèves</p>
+<h2 id="validation-des-élèves">Validation des élèves</h2>
 <p>La validation des élèves se fait sur des critères établis à l’avance et de nature automatique. Certains éléments manuels peuvent être pondérés par l’équipe des professeurs mais cela reste minime.</p>
 <p>L’idée étant que l’ensemble soit juste, strict et totalement transparent.</p>
 <p>Cette validation repose sur les médailles de compétence.</p>
@@ -683,7 +688,7 @@
 <h2 id="forum"><span id="anchor-48"></span>Forum</h2>
 <p>L’intranet dispose d’un espace de discussion commun à tous les élèves et professeurs.</p>
 <h2 id="mail"><span id="anchor-49"></span>Mail</h2>
-<p>Chaque élève dispose d’un compte mail géré par l’école, à son nom et privé.</p>
+<p> Chaque élève dispose d’un compte mail géré par l’école, à son nom et privé.</p>
 <h1 id="xii-équipements"><span id="anchor-50"></span>XII — Équipements</h1>
 <p>L’école est équipée en poste de travail pour les élèves et en serveur afin de fournir les services en ligne tel que l’intranet et différents logiciels outils utiles à la scolarité.</p>
 <h2 id="poste-de-travail-fournit-par-lécole"><span id="anchor-51"></span>Poste de travail fournit par l’école</h2>
@@ -723,7 +728,7 @@
 <p>Chaque élève disposera d’un dépôt Git personnel, celui-ci existant tant que le compte de l’élève existe.</p>
 <p>Chaque équipe de projet, mini-projet ou produit disposera d’un dépôt qui sera généré au départ du projet et détruit à la fin de celui-ci. Une sauvegarde sera alors transmise à l’équipe de projet qui en fera ce qu’elle souhaite.</p>
 <p>Dans le cadre de projets spécifiques, SVN, CSV, Mercurial ou Bazaar pourront remplacer Git.</p>
-<p>Linux-Apache-MariaDB-PHP</p>
+<h2 id="linux-apache-mariadb-php">Linux-Apache-MariaDB-PHP</h2>
 <p>LAMP est un ensemble de logiciels populaire pour la mise en place de sites web dynamiques. Chaque élève disposera du sien.</p>
 <p>Certains projets ou mini-projets disposeront également d’un LAMP spécifique. Ces LAMPs seront détruits à la fin du projet et une sauvegarde sera alors transmise à l’équipe de projet.</p>
 <p>À ces LAMPs, les élèves disposeront d’un accès privilégié : c’est-à-dire qu’ils pourront y faire ce qu’ils entendent ; dans le respect d’une charte d’éthique qu’ils auront signé au préalable.</p>
@@ -759,7 +764,7 @@
 <p>Lorsqu’il est libre, n’importe quel élève peut l’occuper. Étant donné la configuration d’un laboratoire : une poignée de postes de travail isolé, ces endroits sont parfaits pour les équipes en particulier.</p>
 <p>Lorsqu’un laboratoire est attribué, cela signifie qu’un groupe d’étudiant y effectue une activité similaire à une activité associative. Ces activités peuvent appartenir à différentes catégories définies ci-après.</p>
 <p>Un laboratoire de ce type correspond donc a un groupe d’élèves réunis autour d’un ensemble de technologies, logiciels, matériels ou d’une ou plusieurs thématiques.</p>
-<p>Laboratoires pédagogiques</p>
+<h2 id="laboratoires-pédagogiques">Laboratoires pédagogiques</h2>
 <p>Un laboratoire pédagogique est un laboratoire qui souhaite créer du contenu pédagogique pour l’école ainsi que fournir du soutien aux élèves.</p>
 <p>Ces laboratoires étant tenus, bien entendu, par des étudiants d’années supérieures, pour le bénéfice des étudiants plus jeunes.</p>
 <p>Les productions de ces laboratoires sont soumises à la validation par le corps professoral de l’école et par les autres laboratoires pédagogiques. Les laboratoires non pédagogiques pouvant également être présents à titre consultatif ou à titre de conseiller ou d’observateur.</p>
@@ -818,8 +823,8 @@
 <p>– La première raison est que l’informatique est un outil : elle s’associe à un domaine. Dans cet esprit, que plusieurs matières soient mélangées au sein d’un même travail est normal.</p>
 <p>– Une célèbre expérience en sociologie mettait deux classes face à une figure complexe devant être reproduite. À une classe, l’exercice était présenté comme du dessin et l’autre comme de la géométrie. Dans cette dernière, les garçons ont mieux réussi que les filles, contrairement à la première. De cette expérience, nous tirons en général l’impact du stéréotype sur les capacités de chacun. Dans cette école, nous souhaitons généraliser cela, sans s’arrêter aux stéréotypes, à la confiance ou au manque de confiance en soi dans certains domaines. Ainsi, une même notion pourra être apprise de différentes façons, dans des contextes différents dont certains seront plus accessibles à l’élève que d’autre.</p>
 <p>Et a terme, la confiance de l’élève se forgera quand il ou elle réalisera qu’un exercice qu’elle ou il a réussi est en fait le même qu’un autre qui lui faisait peur.</p>
-<p>La liste ci-dessous n’est pas exhaustive.</p>
-<p>L’objectif de ces groupements en matière étant principalement de faciliter le suivi des élèves aux professeurs, ainsi que l’organisation des élèves de leur propre scolarité. Ces catégories sont également effectives sur les médailles.</p>
+<p> La liste ci-dessous n’est pas exhaustive.</p>
+<p> L’objectif de ces groupements en matière étant principalement de faciliter le suivi des élèves aux professeurs, ainsi que l’organisation des élèves de leur propre scolarité. Ces catégories sont également effectives sur les médailles.</p>
 <h2 id="algorithmie"><span id="anchor-77"></span>Algorithmie</h2>
 <p>L’algorithmie consiste en la recherche et l’écriture de mécanisme de traitement de l’information en vue d’en tirer un résultat. Une analogie simple serait la conception et l’écriture d’une recette de cuisine, en vue de transformer les ingrédients dans le plat désiré.</p>
 <p>L’algorithmie est partout mais souvent triviale. Quand elle ne l’est pas, elle est souvent un frein indépassable pour ceux qui n’y ont pas été entraînés.</p>
@@ -829,7 +834,7 @@
 <p>– Sa mise en pratique dans des programmes.</p>
 <p>Le premier aspect étant marginal, dans la mesure où l’école est centrée sur le développement.</p>
 <h2 id="programmation-système"><span id="anchor-79"></span>Programmation système</h2>
-<p>La programmation système est la réalisation de programmes exploitant les fonctionnalités d’un système d’exploitation ou de la machine.</p>
+<p> La programmation système est la réalisation de programmes exploitant les fonctionnalités d’un système d’exploitation ou de la machine.</p>
 <h2 id="programmation-graphique"><span id="anchor-80"></span>Programmation graphique</h2>
 <p>La programmation graphique est la réalisation de programmes effectuant des projections graphiques complexes de données : typiquement, il s’agit ici de réaliser des vues complexes tel que des plans 3D.</p>
 <h2 id="programmation-interactive"><span id="anchor-81"></span>Programmation interactive</h2>
@@ -868,8 +873,8 @@
 <h2 id="promotion-1"><span id="anchor-96"></span>Promotion</h2>
 <p>Cette matière regroupe l’ensemble des activités associées à la promotion d’un travail. Il s’agit autant de rechercher les opportunités de faire cette promotion que d’imaginer et produire du support promotionnel.</p>
 <h2 id="procédures"><span id="anchor-97"></span>Procédures</h2>
-<p>Cette matière sanctionne le suivi des différentes réunions et l’implication des élèves dans les procédures à suivre. À partir d’un certain cap, il ne s’agit plus d’évaluer le suivi des élèves de ces réunions mais d’évaluer l’organisation par eux-mêmes de ces élèves et le maintien ou l’amélioration des résultats qu’ils obtiennent en conséquence.</p>
-<p>Cette matière incorpore également l’utilisation d’outils associés à l’organisation des procédures de travail ainsi que la rédaction de documents associés à cette même organisation.</p>
+<p> Cette matière sanctionne le suivi des différentes réunions et l’implication des élèves dans les procédures à suivre. À partir d’un certain cap, il ne s’agit plus d’évaluer le suivi des élèves de ces réunions mais d’évaluer l’organisation par eux-mêmes de ces élèves et le maintien ou l’amélioration des résultats qu’ils obtiennent en conséquence.</p>
+<p> Cette matière incorpore également l’utilisation d’outils associés à l’organisation des procédures de travail ainsi que la rédaction de documents associés à cette même organisation.</p>
 <h2 id="critique"><span id="anchor-98"></span>Critique</h2>
 <p>Cette matière regroupe les activités d’analyse critique ou d’étude de l’existant. Cela va de la rigoureuse étude pour l’acte d’un logiciel existant au test de jeux vidéo à titre de comparaison avec son propre projet.</p>
 <p>Cette matière inclut également la rédaction de documents synthétisant ces critiques.</p>
@@ -879,7 +884,7 @@
 <h2 id="culture-informatique-et-populaire"><span id="anchor-100"></span>Culture informatique et populaire</h2>
 <p>Cette matière regroupe l’ensemble des activités traitant de la culture informatique ou de la culture populaire.</p>
 <h2 id="anglais"><span id="anchor-101"></span>Anglais</h2>
-<p>Cette matière regroupe l’ensemble des activités nécessitant de la lecture, de l’écriture, de l’écoute ou de la parole en anglais.</p>
+<p> Cette matière regroupe l’ensemble des activités nécessitant de la lecture, de l’écriture, de l’écoute ou de la parole en anglais.</p>
 <h2 id="recherche-créative"><span id="anchor-102"></span>Recherche créative</h2>
 <p>Cette matière regroupe l’ensemble des activités disposant d’une composante créative et des ateliers associés à la recherche de nouveautés.</p>
 <p>Cette matière inclut les rédactions pouvant suivre ces activités.</p>
