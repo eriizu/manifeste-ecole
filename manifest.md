@@ -54,6 +54,8 @@ title: Manifeste de la Caverne aux Lapins Noirs
         médailles](#publicité-des-médailles)
     -   [<span id="anchor-23"></span>Médaille
         d’équipe](#médaille-déquipe)
+    -   [Médailles autres](#médailles-autres)
+    -   [Validation des élèves](#validation-des-élèves)
     -   [Suivi des élèves en
         difficulté](#suivi-des-élèves-en-difficulté)
     -   [<span id="anchor-24"></span>Reproches](#reproches)
@@ -109,6 +111,7 @@ title: Manifeste de la Caverne aux Lapins Noirs
     -   [<span
         id="anchor-57"></span>ReviewBoard/Gitlab/etc.](#reviewboardgitlabetc.)
     -   [<span id="anchor-58"></span>Git](#git)
+    -   [Linux-Apache-MariaDB-PHP](#linux-apache-mariadb-php)
 -   [<span id="anchor-59"></span>XIV — Locaux](#xiv-locaux)
     -   [<span id="anchor-60"></span>Amphithéâtre](#amphithéâtre)
     -   [<span id="anchor-61"></span>Salle machine](#salle-machine)
@@ -117,6 +120,7 @@ title: Manifeste de la Caverne aux Lapins Noirs
     -   [<span id="anchor-64"></span>Salle de pause](#salle-de-pause)
     -   [<span id="anchor-65"></span>Bureaux](#bureaux)
 -   [<span id="anchor-66"></span>XV — Laboratoires](#xv-laboratoires)
+    -   [Laboratoires pédagogiques](#laboratoires-pédagogiques)
     -   [<span id="anchor-67"></span>Laboratoires de
         recherche](#laboratoires-de-recherche)
     -   [<span id="anchor-68"></span>Clubs
@@ -198,9 +202,9 @@ title: Manifeste de la Caverne aux Lapins Noirs
 | Auteur            | Jason Brillante                                                       |
 | Corrections       | Élise C. Philippe                                                     |
 | Date              | 29 avril 2018                                                         |
-| \# de manuscrit   | 2                                                                     |
+| # de manuscrit    | 2                                                                     |
 | Dernière révision | 24 mai 2021                                                           |
-| \# de révision    | 18                                                                    |
+| # de révision     | 18                                                                    |
 
 # Résumé
 
@@ -619,8 +623,8 @@ Nous entendons lutter pour l’égalité entre les genres dans
 l’informatique, nous nous positionnons ainsi en faveur d’une école
 d’informatique où les femmes ont la place qui leur revient.
 
-Nous entendons lutter contre toute discrimination qu’elle soit basée sur
-l’ethnie, les pratiques sexuelles ou le genre.
+Nous entendons lutter contre toutes les discriminations qu’elles soient
+racistes, sexistes, homophobes ou transphobes.
 
 Nous avons la prétention d’être l’une des origines du Progrès, progrès
 social, scientifique, philosophique, politique et technique, à l’humble
@@ -937,7 +941,7 @@ l’équipe gagnera une médaille après coup. Celle de l’entraide.
 
 Elles ne peuvent être obtenues que sur les projets en équipe.
 
-Médailles autres
+## Médailles autres
 
 Les médailles autres peuvent être données manuellement par l’équipe des
 professeurs.
@@ -956,7 +960,7 @@ période de stagnation (médaille de progression) ;
 
 – etc.
 
-Validation des élèves
+## Validation des élèves
 
 La validation des élèves se fait sur des critères établis à l’avance et
 de nature automatique. Certains éléments manuels peuvent être pondérés
@@ -1568,7 +1572,7 @@ qu’elle souhaite.
 Dans le cadre de projets spécifiques, SVN, CSV, Mercurial ou Bazaar
 pourront remplacer Git.
 
-Linux-Apache-MariaDB-PHP
+## Linux-Apache-MariaDB-PHP
 
 LAMP est un ensemble de logiciels populaire pour la mise en place de
 sites web dynamiques. Chaque élève disposera du sien.
@@ -1693,7 +1697,7 @@ Un laboratoire de ce type correspond donc a un groupe d’élèves réunis
 autour d’un ensemble de technologies, logiciels, matériels ou d’une ou
 plusieurs thématiques.
 
-Laboratoires pédagogiques
+## Laboratoires pédagogiques
 
 Un laboratoire pédagogique est un laboratoire qui souhaite créer du
 contenu pédagogique pour l’école ainsi que fournir du soutien aux
@@ -2152,7 +2156,7 @@ Les langages enseignés dans l’école sont, dans différentes mesures :
 
 – le VHDL, le Verilog ;
 
-– l’Assembleur pour x86\_64, PIC et 68000.
+– l’Assembleur pour x86_64, PIC et 68000.
 
 Cette liste n’est pas exhaustive et est amenée à évoluer en fonction des
 signataires de ce manifeste et du corps professoral.
