@@ -43,6 +43,7 @@ title: Manifeste de la Caverne aux Lapins Noirs
     scolaire](#viii-déroulement-dune-année-scolaire)
     -   [<span id="anchor-17"></span>La période
         d’apprentissage](#la-période-dapprentissage)
+    -   [La période dirigée](#la-période-dirigée)
     -   [<span id="anchor-18"></span>La période
         libre](#la-période-libre)
     -   [<span id="anchor-19"></span>Les vacances](#les-vacances)
@@ -202,9 +203,9 @@ title: Manifeste de la Caverne aux Lapins Noirs
 | Auteur            | Jason Brillante                                                       |
 | Corrections       | Élise C. Philippe                                                     |
 | Date              | 29 avril 2018                                                         |
-| # de manuscrit    | 2                                                                     |
-| Dernière révision | 16 novembre 2021                                                      |
-| # de révision     | 19                                                                    |
+| \# de manuscrit   | 2                                                                     |
+| Dernière révision | 27 juin 2022                                                          |
+| \# de révision    | 20                                                                    |
 
 # Résumé
 
@@ -752,7 +753,7 @@ La période d’apprentissage peut être remplacée par une courte période
 dirigée, par une extension d’une période libre ou par un allongement de
 la semaine de vacances.
 
-La période dirigée
+## La période dirigée
 
 La période dirigée est la période principale du cycle scolaire. Celle-ci
 dure 5 semaines. Durant cette période, des activités scolaires ont lieu
